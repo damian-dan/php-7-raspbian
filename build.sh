@@ -12,4 +12,4 @@ tar jxf php-7.0.0.tar.bz2
 cd php-7.0.0beta1/
 # until I do find a proper way (maybe git based) to retrieve latest PHP stable release, this is not going to be further updated
 
-'./configure' '--prefix=/opt/php-7' '--enable-fpm' '--with-libxml-dir=/usr/lib/x86_64-linux-gnu/' '--enable-bcmath' '--enable-exif' '--enable-intl' '--enable-calendar' '--enable-zip' '--enable-soap' '--enable-ftp' '--enable-pcntl' '--enable-mbstring' '--with-openssl' '--with-curl' '--with-pdo-mysql=mysqlnd' '--with-mcrypt' '--with-zlib' '--with-bz2' '--with-config-file-path=/opt/php7/etc/' '--with-config-file-scan-dir=/opt/php7/etc/modules/'
+'./configure' '--prefix=/opt/php-7' '--enable-fpm' '--with-libxml-dir=/usr/lib/x86_64-linux-gnu/' '--enable-bcmath' '--enable-exif' '--enable-intl' '--enable-calendar' '--enable-zip' '--enable-soap' '--enable-ftp' '--enable-pcntl' '--enable-mbstring' '--with-openssl' '--with-curl' '--with-pdo-mysql=mysqlnd' '--with-mcrypt' '--with-zlib' '--with-bz2' '--with-config-file-path=/opt/php-7/etc/' '--with-config-file-scan-dir=/opt/php-7/etc/modules/'
